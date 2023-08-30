@@ -2,9 +2,22 @@
 name = "blinky"
 version = "0.1.0"
 edition = "2021"
+default-run = "main_program"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
 rust-hdl = { version = "0.46.0", features = ["fpga"] }
 rust-hdl-bsp-alchitry-cu = "0.46.0"
+
+[[bin]]
+name = "main_program"
+path = "src/main.rs"
+
+[[bin]]
+name = "simulation"
+path = "src/sim.rs"
+
+[[bin]]
+name = "verilog"
+path = "src/verilog.rs"

@@ -36,14 +36,14 @@ impl Default for Blinky {
 
 fn main() {
     // generate build
-    // let uut = Blinky::default();
-    // synth::generate_bitstream(uut, "firmware/blinky");
+    let uut = Blinky::default();
+    synth::generate_bitstream(uut, "firmware/blinky");
 
     // generate and print verilog
-    let mut uut = Blinky::default();
-    uut.connect_all();
-    let vlog = generate_verilog(&uut);
-    println!("{vlog}");
+    // let mut uut = Blinky::default();
+    // uut.connect_all();
+    // let vlog = generate_verilog(&uut);
+    // println!("{vlog}");
 }
 
 // compile

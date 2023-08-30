@@ -1012,6 +1012,6 @@ found and reported 0 problems.
 2.46. Executing JSON backend.
 
 End of script. Logfile hash: ccbff433d9
-CPU: user 0.29s system 0.01s, MEM: 45.92 MB total, 40.09 MB resident
+CPU: user 0.29s system 0.02s, MEM: 45.92 MB total, 39.89 MB resident
 Yosys 0.9 (git sha1 1979e0b)
-Time spent: 30% 10x read_verilog (0 sec), 15% 18x opt_clean (0 sec), ...
+Time spent: 31% 10x read_verilog (0 sec), 15% 18x opt_clean (0 sec), ...
