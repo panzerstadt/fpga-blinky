@@ -1,6 +1,6 @@
 use rust_hdl::prelude::*;
 use rust_hdl_bsp_alchitry_cu::pins::CLOCK_SPEED_100MHZ;
-use rust_hdl_bsp_alchitry_cu::{pins, synth};
+use rust_hdl_bsp_alchitry_cu::pins;
 use std::time::Duration;
 
 #[derive(LogicBlock)]
